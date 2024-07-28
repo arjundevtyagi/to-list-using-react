@@ -1,0 +1,24 @@
+h1{
+    font-weight: 700;
+    font-size: 3rem;
+    margin: 1rem;
+    margin-bottom: 2rem;
+    background-color: aliceblue;
+}
+
+input{
+    width: 100%;
+}
+
+.items{
+    text-align: left;
+}
+
+.row{
+    margin: 10px 5px;
+}
+
+button{
+    width: 100%;
+    padding: 5px;
+}
