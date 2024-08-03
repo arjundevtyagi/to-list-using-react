@@ -1,7 +1,7 @@
 export default function AddComponent(){
 
     return(
-        <div className="row">
+        <div className="row items">
         <div className="col-5 ">
           <input type="text" placeholder="Enter toda here" />
         </div>
