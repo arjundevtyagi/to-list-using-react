@@ -1,16 +1,17 @@
 import TodoItem from "./TodaItem";
 
 
-function ItemsContainer({items}){
+function ItemsContainer({items , handelDltBtn}){
     
-items.map((i)=>(console.log(i)));
+// items.map((i)=>(console.log(i)));
     return <>
-    {items.map((item)=>(<TodoItem key={item.name} todaItem={item.name} todoDate={item.date}/>)
+    {items.map((item)=>(<TodoItem handelDltBtn = {handelDltBtn}
+                                  key={item.name}
+                                  todaItem={item.name}
+                                  todoDate={item.date}/>)
     )}
 
-</>
-
-    
+</>  
 }
 
 
